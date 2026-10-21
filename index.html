@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TaalForge</title>
+<meta name="description" content="Dutch and French practice: PRINCE2 workplace tracks and an A1 everyday track.">
+<meta name="theme-color" content="#f7f9f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1e2a25" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="TaalForge">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preload" href="fonts/andika-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <a class="wordmark" href="#/">Taal<b>Forge</b></a>
+      <div id="meta"></div>
+      <a class="gear" href="#/settings" aria-label="Settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg></a>
+    </div>
+    <nav id="tracks" aria-label="Tracks"></nav>
+  </div>
+</header>
+<main id="main"><noscript>TaalForge needs JavaScript.</noscript></main>
+<nav id="nav" aria-label="Sections"></nav>
+
+<!-- Content: edit these files to change lessons, no app code involved -->
+<script src="data/nl.js"></script>
+<script src="data/fr.js"></script>
+<script src="data/scenarios.js"></script>
+<script src="data/vocab.js"></script>
+<script src="data/a1.js"></script>
+<!-- App -->
+<script src="js/core.js"></script>
+<script src="js/dutch.js"></script>
+<script src="js/speech.js"></script>
+<script src="js/app.js"></script>
+<script src="js/a1.js"></script>
+</body>
+</html>
